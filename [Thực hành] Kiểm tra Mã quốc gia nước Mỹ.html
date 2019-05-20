@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+    let a=prompt("mời nhập mã: ");
+    if(regexp.test(a)){
+        alert("Là mã nước Mỹ");
+    }else{
+        alert("Không là mã nước Mỹ");
+    }
+</script>
+</body>
+</html>

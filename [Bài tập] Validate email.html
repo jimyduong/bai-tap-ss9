@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    regexp = /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+    let a=prompt("mời nhập email: ");
+    if(regexp.test(a)){
+        alert("email hợp lệ");
+    }else{
+        alert("email không hợp lệ");
+    }
+</script>
+</body>
+</html>
